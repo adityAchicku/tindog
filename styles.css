@@ -1,0 +1,149 @@
+.design{
+  font-family: 'Montserrat', sans-serif;
+}
+  
+
+
+#title{
+ background-color:#ff4c68;
+ color:#fff;
+
+
+}
+.image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  
+}
+@media(max-width: 437px){
+  #title{
+    text-align: center;
+  }
+  .image{
+    position:static;
+    transform:rotate(0);
+  }
+}
+.containerfluid{
+  padding-top: 3%;
+  padding-bottom: 7%;
+  padding-left: 15%;  
+  padding-right: 15%;
+
+}
+.row{
+  padding-top: 4.5rem
+  
+  
+}
+
+
+.font{
+  font-family:'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+ 
+}
+/*navigation bar*/
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbarbrand{
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+  
+}
+
+.nav-item{
+  padding:0 18px;
+  
+}
+
+/*buttons*/
+.download {
+  margin: 10% 3% 5% 0;
+}
+
+/*feature*/
+#features{
+  padding:7% 7%;
+  background-color: #fff;
+  position: relative;
+}
+.feature-box{
+  text-align: center;
+  
+}
+p{
+  color: grey;
+}
+
+.icon{
+  color:#FFA07A;
+  padding-bottom: 1rem;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+
+/*testimonials section*/
+#testimonials {
+  
+  text-align: center;
+  background-color: #FFA07A;
+  color:#fff;
+}
+carousel-inner{
+  padding:7% 15%;
+}
+.testim{/*it is a class of h2 because direct h2 is not working in mobile so this ockwored class is chosen*/
+  line-height: 1.5;
+  font-size: 2.5rem;
+}
+.testimonialimg{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/*press section*/
+#press{
+  background-color:#ffa07a;
+  text-align: center;
+  padding-bottom:10px;
+}
+.logo{
+  width:15%;
+  margin:20px 20px 15px 15px;
+}
+/*pricing*/
+#pricing{
+ padding:100px;
+ text-align: center;
+}
+.pricingcol{
+ padding: 0 3%;
+}
+/*cta section*/
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  padding:7% 15%;
+  line-height: 1.5;
+}
+.ctaheading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#footer{
+  background-color:#fff;
+  text-align: center;
+  padding:7% 15%;
+}
+.social{
+  padding:0 10px 10px 10px;
+}
